@@ -51,7 +51,7 @@ const Skills = () => {
               <SkillsCard
                 title="JavaScript"
                 image="/images/js.svg"
-                percentage="30%"
+                percentage="50%"
               />
             </div>
             <div
@@ -62,7 +62,7 @@ const Skills = () => {
               <SkillsCard
                 title="TypeScript"
                 image="/images/ts.svg"
-                percentage="30%"
+                percentage="50%"
               />
             </div>
             <div
@@ -73,7 +73,7 @@ const Skills = () => {
               <SkillsCard
                 title="Node JS"
                 image="/images/node.svg"
-                percentage="20%"
+                percentage="50%"
               />
             </div>
             <div
@@ -84,7 +84,7 @@ const Skills = () => {
               <SkillsCard
                 title="Next JS"
                 image="/images/next.svg"
-                percentage="30%"
+                percentage="50%"
               />
             </div>
             <div
@@ -95,7 +95,7 @@ const Skills = () => {
               <SkillsCard
                 title="Python"
                 image="/images/python.svg"
-                percentage="10%"
+                percentage="40%"
               />
             </div>
             <div
