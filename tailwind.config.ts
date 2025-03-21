@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors:{
+        primary: '#0ea5e9',
+        tertiary: '#ec4899',
+      },
       fontFamily:{
         logo:["Playwrite AU VIC Guides", "serif"],
         primary:["Merriweather", "serif"]

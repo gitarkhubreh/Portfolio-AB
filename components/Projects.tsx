@@ -1,64 +1,180 @@
 import React from "react";
-import ProjectsCard from "./Helper/ProjectsCard";
-
+import ServicesCard from "./Helper/ServicesCard";
+import Image from "next/image";
 const Projects = () => {
   return (
-    <div className="pt-[5rem] pb-[3rem] bg-gray-900" id="projects">
+    <div className="pt-[5rem] pb-[3rem] bg-[#0b0c13]" id="projects">
       <div className="text-center">
-        <p className="heading__mini">Recent Works</p>
+        <p className="heading__mini">Popular Projects</p>
         <h1 className="heading__primary">
-          My Best <span className="text-cyan-300">Projects</span>
+          My Special <span className="text-cyan-300">Projects</span> For You
         </h1>
       </div>
-      <ProjectsCard
-        title="CountDown Timer"
-        tech1="View Project"
-        image="/images/p1.PNG"
-        description="A simple countdown timer application built using React, Next.js, and Tailwind CSS. It allows users to set a timer and track time dynamically."
-        projectLink="https://next-js-count-down-timer.vercel.app/" // Add project link here
-      />
-      <ProjectsCard
-        title="Calculator"
-        tech1="View Project"
-        image="/images/ca.PNG"
-        description="A fully functional calculator application developed using React and Tailwind CSS, supporting basic arithmetic operations."
-        projectLink="https://next-js-calculator-gamma.vercel.app/"
-      />
-      <ProjectsCard
-        title="Calendar"
-        tech1="View Project"
-        image="/images/calender.PNG"
-        description="A dynamic calendar application that allows users to view, add, and manage events with an intuitive interface."
-        projectLink="https://next-js-calendar-2025.vercel.app/"
-      />
-      <ProjectsCard
-        title="Online Furniture Store"
-        tech1="View Project"
-        image="/images/pro1.PNG"
-        description="Explore stylish, durable furniture that transforms your home into a haven of comfort and elegance."
-        projectLink="https://ecommerce-website-three-ashy.vercel.app/"
-      />
-      <ProjectsCard
-        title="Our Team Member Portfolio"
-        tech1="View Project"
-        image="/images/rm.PNG"
-        description="I designed and developed this portfolio using basic programming techniques to showcase my skills, creativity, and passion for web development in a simple yet effective way."
-        projectLink="https://rameez-portfolio-gold.vercel.app/"
-      />
-      <ProjectsCard
-        title="Ecommerce Cosmetics Website"
-        tech1="View Project"
-        image="/images/cos.PNG"
-        description="Our eCommerce website offers a seamless shopping experience with easy navigation, secure checkout, and optimized performance across all devices. Whether you're shopping for tech, fashion, or more, we prioritize convenience, reliability, and security for every customer."
-        projectLink="https://cosmetics-two.vercel.app/HomePage"
-      />
-      <ProjectsCard
-        title="JavaScript Assignment"
-        tech1="View Project"
-        image="/images/jsI.png"
-        description="In this assignment, I used JavaScript to create an interactive web page, handling user input and updating content dynamically. It helped me improve my coding skills."
-        projectLink="https://github.com/gitarkhubreh/JavaScript-Assignments"
-      />
+      <div className="pt-[5rem] w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[3rem] items-center">
+      <article className="card__article">
+            <Image
+              src="/images/C.png"
+              alt="image"
+              className="card__img"
+              height={1000}
+              width={1000}
+            />
+
+            <div className="card__data">
+              <span className="card__description">
+                Using NextJS And Tailwind CSS
+              </span>
+              <h2 className="card__title">Cosmetics Website</h2>
+              <a
+                href="https://cosmetics-two.vercel.app/" // This will scroll to the section with ID 'contact'
+                
+                className="relative flex h-[50px] w-40 rounded-md items-center justify-center font-semibold overflow-hidden bg-cyan-500 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-cyan-300 before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56"
+              >
+                <span className="relative z-10">View Projects</span>
+              </a>
+            </div>
+          </article>
+          <article className="card__article">
+            <Image
+              src="/images/T.png"
+              alt="image"
+              className="card__img"
+              height={1000}
+              width={1000}
+            />
+
+            <div className="card__data">
+              <span className="card__description">
+                Usind NextJS And Tailwind CSS
+              </span>
+              <h2 className="card__title">CountDown-Timer</h2>
+              <a
+                href="https://next-js-count-down-timer.vercel.app/" // This will scroll to the section with ID 'contact'
+               
+                className="relative flex h-[50px] w-40 rounded-md items-center justify-center font-semibold overflow-hidden bg-cyan-500 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-cyan-300 before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56"
+              >
+                <span className="relative z-10">View Projects</span>
+              </a>
+            </div>
+          </article>
+          <article className="card__article">
+            <Image
+              src="/images/CAL.png"
+              alt="image"
+              className="card__img"
+              height={1000}
+              width={1000}
+            />
+
+            <div className="card__data">
+              <span className="card__description">
+              Usind NextJS And Tailwind CSS
+              </span>
+              <h2 className="card__title">Calendar</h2>
+              <a
+                href="https://next-js-calendar-2025.vercel.app/" // This will scroll to the section with ID 'contact'
+               
+                className="relative flex h-[50px] w-40 rounded-md items-center justify-center font-semibold overflow-hidden bg-cyan-500 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-cyan-300 before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56"
+              >
+                <span className="relative z-10">View Projects</span>
+              </a>
+            </div>
+          </article>
+          <article className="card__article">
+            <Image
+              src="/images/CU.png"
+              alt="image"
+              className="card__img"
+              height={1000}
+              width={1000}
+            />
+
+            <div className="card__data">
+              <span className="card__description">
+              Usind NextJS And Tailwind CSS
+              </span>
+              <h2 className="card__title">Calculator</h2>
+              <a
+                href="https://next-js-calculator-gamma.vercel.app/" // This will scroll to the section with ID 'contact'
+               
+                className="relative flex h-[50px] w-40 rounded-md items-center justify-center font-semibold overflow-hidden bg-cyan-500 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-cyan-300 before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56"
+              >
+                <span className="relative z-10">View Projects</span>
+              </a>
+            </div>
+          </article>
+          <article className="card__article">
+            <Image
+              src="/images/FU.png"
+              alt="image"
+              className="card__img"
+              height={1000}
+              width={1000}
+            />
+
+            <div className="card__data">
+              <span className="card__description">
+                Using HTML,CSS And JavaScript
+              </span>
+              <h2 className="card__title">Furniture Store Website</h2>
+              <a
+                href="https://ecommerce-website-three-ashy.vercel.app/" // This will scroll to the section with ID 'contact'
+               
+                className="relative flex h-[50px] w-40 rounded-md items-center justify-center font-semibold overflow-hidden bg-cyan-500 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-cyan-300 before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56"
+              >
+                <span className="relative z-10">View Projects</span>
+              </a>
+            </div>
+          </article>
+          <article className="card__article">
+            <Image
+              src="/images/PO.png"
+              alt="image"
+              className="card__img"
+              height={1000}
+              width={1000}
+            />
+
+            <div className="card__data">
+              <span className="card__description">
+                Using HTML,CSS And JavaScript
+              </span>
+              <h2 className="card__title">Team Member Portfolio</h2>
+              <a
+                href="https://rameez-portfolio-gold.vercel.app/" // This will scroll to the section with ID 'contact'
+              
+                className="relative flex h-[50px] w-40 rounded-md items-center justify-center font-semibold overflow-hidden bg-cyan-500 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-cyan-300 before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56"
+              >
+                <span className="relative z-10">View Projects</span>
+              </a>
+            </div>
+          </article>
+          <article className="card__article">
+            <Image
+              src="/images/JA.png"
+              alt="image"
+              className="card__img"
+              height={1000}
+              width={1000}
+            />
+
+            <div className="card__data">
+              <span className="card__description">
+                Using JavaScript Code
+              </span>
+              <h2 className="card__title">JavaScript Assignment</h2>
+              <a
+                href="https://github.com/gitarkhubreh/JavaScript-Assignments" // This will scroll to the section with ID 'contact'
+                
+                className="relative flex h-[50px] w-40 rounded-md items-center justify-center font-semibold overflow-hidden bg-cyan-500 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-cyan-300 before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56"
+              >
+                <span className="relative z-10">View Projects</span>
+              </a>
+            </div>
+          </article>
+         
+          
+      </div>
     </div>
   );
 };
