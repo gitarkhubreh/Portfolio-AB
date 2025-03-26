@@ -187,7 +187,7 @@ const Projects = () => {
               </span>
               <h2 className="card__title">Unit Converter</h2>
               <a
-                href="https://github.com/gitarkhubreh/Unit-Convertor" // This will scroll to the section with ID 'contact'
+                href="https://gitarkhubreh-unit-convertor-app-xnzme3.streamlit.app/" // This will scroll to the section with ID 'contact'
                 
                 className="relative flex h-[50px] w-40 rounded-md items-center justify-center font-semibold overflow-hidden bg-cyan-500 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-cyan-300 before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56"
               >
@@ -210,7 +210,7 @@ const Projects = () => {
               </span>
               <h2 className="card__title">Growth MindSet App</h2>
               <a
-                href="https://github.com/gitarkhubreh/Growth-Mind-Set-App" // This will scroll to the section with ID 'contact'
+                href="https://gitarkhubreh-growth-mind-set-app-app-bakkhw.streamlit.app/" // This will scroll to the section with ID 'contact'
                 
                 className="relative flex h-[50px] w-40 rounded-md items-center justify-center font-semibold overflow-hidden bg-cyan-500 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-cyan-300 before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56"
               >
@@ -233,7 +233,7 @@ const Projects = () => {
               </span>
               <h2 className="card__title">Password Strength Meter</h2>
               <a
-                href="https://github.com/gitarkhubreh/Password-Strength-Meter" // This will scroll to the section with ID 'contact'
+                href="https://gitarkhubreh-password-strength-meter-app-m9rrkr.streamlit.app/" // This will scroll to the section with ID 'contact'
                 
                 className="relative flex h-[50px] w-40 rounded-md items-center justify-center font-semibold overflow-hidden bg-cyan-500 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-cyan-300 before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56"
               >
@@ -256,7 +256,7 @@ const Projects = () => {
               </span>
               <h2 className="card__title">Personal Library Manager</h2>
               <a
-                href="https://github.com/gitarkhubreh/Personal-Library-Manager" // This will scroll to the section with ID 'contact'
+                href="https://gitarkhubreh-personal-library-manager-app-zslu71.streamlit.app/" // This will scroll to the section with ID 'contact'
                 
                 className="relative flex h-[50px] w-40 rounded-md items-center justify-center font-semibold overflow-hidden bg-cyan-500 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-cyan-300 before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56"
               >
