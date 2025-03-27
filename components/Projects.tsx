@@ -264,6 +264,29 @@ const Projects = () => {
               </a>
             </div>
           </article>
+          <article className="card__article">
+            <Image
+              src="/images/4.png"
+              alt="image"
+              className="card__img"
+              height={1000}
+              width={1000}
+            />
+
+            <div className="card__data">
+              <span className="card__description">
+                Using Python Practice
+              </span>
+              <h2 className="card__title">Projects 4 Assignment</h2>
+              <a
+                href="https://github.com/gitarkhubreh/Project-4-Assignments" // This will scroll to the section with ID 'contact'
+                
+                className="relative flex h-[50px] w-40 rounded-md items-center justify-center font-semibold overflow-hidden bg-cyan-500 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-cyan-300 before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56"
+              >
+                <span className="relative z-10">View Projects</span>
+              </a>
+            </div>
+          </article>
          
          
           
